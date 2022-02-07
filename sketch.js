@@ -29,7 +29,7 @@ log4=new Log(870,120,150,-PI/7)
 } 
 
 function draw() {
-  background(255,255,255);  
+  background("yellow");  
   Engine.update(engine);
   ground.display();
   box1.display();
